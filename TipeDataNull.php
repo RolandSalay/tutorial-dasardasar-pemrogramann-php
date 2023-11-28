@@ -1,6 +1,6 @@
 <?php
 
-$name = "Noel";
+$name = "roland";
 $Name = null;
 
 $age = null;
@@ -13,13 +13,13 @@ echo "Age : ";
 echo $age;
 echo "\n";
 
-$name = "noel";
+$name = "Roland";
 
 echo "Is Name Null? : ";
 var_dump(is_null($name));
 echo "\n";
 
-$contoh = "noel";
+$contoh = "Roland";
 unset($contoh);
 
 
