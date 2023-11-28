@@ -3,24 +3,24 @@
 $values = array(10, 9, 8, 7.5);
 var_dump($values);
 
-$names = ["noel", "ckristabel", "maniawai"];
+$names = ["Roland", "Imanuel", "Salay"];
 var_dump($names);
 
 var_dump($names[0]);
 
-$names[0] = "NOEL";
+$names[0] = "ROLAND";
 var_dump($names);
 
-$names[2] = "MANIAWASI";
+$names[2] = "IMANUEL";
 var_dump($names);
 
-$names[1] = "CKRISTABEL";
+$names[1] = "SALAY";
 var_dump($names);
 
 unset($names[1]);
 var_dump($names);
 
-$names[] = "CKRISTABEL";
+$names[] = "IMANUEL";
 var_dump($names);
 
 var_dump(count($names));
@@ -28,9 +28,9 @@ var_dump(count($names));
 
 
 $eko = array(
-	"id" => "noel",
-	"name" => "NOEL MANIAWASI",
-	"age" => "30"
+	"id" => "Roland",
+	"name" => "ROLAND SALAY",
+	"age" => "17"
 );
 var_dump($eko);
 
